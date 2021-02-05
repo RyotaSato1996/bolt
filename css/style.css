@@ -125,7 +125,7 @@ img {
 }
 
 .work-inner {
-  padding: 60px 0 40px 0 ;
+  padding: 60px 0 70px 0 ;
 }
 
 .work-title {
@@ -164,7 +164,7 @@ img {
 }
 
 .email {
-  padding: 90px 0 70px 0;
+  padding-top: 90px;
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -275,5 +275,35 @@ img {
 
 .footer-text {
   color: #fff;
-  
+}
+
+
+@media screen and (max-width: 1199px) {
+
+  .inner {
+    width: 97%;
+  }
+
+  .what-inner {
+    display: block;
+  }
+
+  .what-img {
+    margin: 0 auto;
+  }
+
+  .what-text-box {
+    padding: 20px 0 25px 0;
+  }
+
+  .work-list {
+    text-align: center;
+  }
+ 
+  .work-list li {
+    display: block;
+    margin: 0;
+  }
+ 
+
 }
