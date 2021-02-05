@@ -111,11 +111,12 @@ img {
 }
 
 .what-text {
-  padding-top: 35px;
+  margin-top: 35px;
   font-size: 20px;
   color: #fff;
   text-align: center;
   line-height: 1.2;
+  width: 65em;
 }
 
 /* works */
@@ -136,7 +137,7 @@ img {
 }
 
 .work-list {
-  padding-top: 40px;
+  margin-top: 40px;
   font-size: 0;
 }
 
@@ -164,7 +165,7 @@ img {
 }
 
 .email {
-  padding-top: 90px;
+  margin-top: 90px;
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -242,17 +243,19 @@ img {
   font-size: 0;
 }
 
-.sns-list li {
+.sns-item {
   width: 185px;
-  height: 100px;
   display: inline-block;
   transition: all .3s;
+}
+
+.sns-link {
+  padding: 25px 0;
 }
 
 .sns-list li i {
   color: #74cfae;
   font-size: 50px;
-  padding-top: 25px;
 }
 
 .sns-list li:hover {
@@ -284,6 +287,10 @@ img {
     width: 97%;
   }
 
+  .pc-br {
+    display: none;
+  }
+
   .what-inner {
     display: block;
   }
@@ -304,6 +311,20 @@ img {
     display: block;
     margin: 0;
   }
+
+  .work-list li:nth-child(4n) {
+    margin-top: 80px;
+  }
  
+  .email {
+    padding-top: 80px;
+    display: block;
+    text-align: center;
+  }
+
+  .email-btn {
+    margin: 0;
+    margin-top: 40px;
+  }
 
 }
