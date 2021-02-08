@@ -66,8 +66,6 @@ img {
   padding-top: 70px;
 }
 
-
-
 /* theme */
 
 .theme {
@@ -126,21 +124,20 @@ img {
   word-spacing: 2px;
 }
 
-/* works */
+/* work */
 
 .work {
   background-color: #f2f2f2;
 }
 
 .work-inner {
-  padding: 60px 0 70px 0 ;
+  padding: 60px 0 70px 0;
 }
 
 .work-title {
   text-align: center;
   font-size: 24px;
   color: #333;
-  text-align: center;
 }
 
 .work-list {
@@ -149,8 +146,7 @@ img {
 }
 
 .work-list li {
-  margin-top: 80px;
-  margin-left: 100px;
+  margin: 80px 0 0 100px;
   display: inline-block;
 }
 
@@ -267,7 +263,6 @@ img {
 
 .sns-list li:hover {
   background-color: #fff;
-  
 }
 
 /* footer */
@@ -275,7 +270,6 @@ img {
 .footer {
   width: 100%;
   background-color: #74cfae;
-  
 }
 
 .footer-inner {
@@ -317,9 +311,7 @@ img {
     display: inline-block;
   }
 
-
-
-  /* works */
+  /* work */
 
   .work-list li {
     display: block;
@@ -358,8 +350,7 @@ img {
   }
 
   .skill-list li {
-    margin: 0;
-    margin-top: 88px;
+    margin: 88px 0 0;
   }
 
   .skill-list li:first-child {
@@ -420,6 +411,7 @@ img {
     margin-top: 20px;
   }
 
+  /* work */
 
   .email-btn {
     font-size: 20px;
