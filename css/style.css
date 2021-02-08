@@ -219,17 +219,17 @@ img {
   justify-content: center;
 }
 
-.skill-item {
+.skill-list li {
   margin-left: 180px;
 }
 
-.skill-item:first-child {
+.skill-list li:first-child {
   margin-left: 0;
 }
 
-.skill-item p {
+.skill-item figcaption {
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 2;
   color: #fff;
   text-align: center;
 }
@@ -309,6 +309,12 @@ img {
     width: 100%;
     margin-top: 20px;
     padding-top: 0;
+    text-align: center;
+  }
+
+  .what-text {
+    width: 90%;
+    display: inline-block;
   }
 
 
@@ -337,6 +343,7 @@ img {
 
   .email-text {
     width: 90%;
+    display: inline-block;
   }
 
   .email-btn {
@@ -350,12 +357,12 @@ img {
     display: block;
   }
 
-  .skill-item {
+  .skill-list li {
     margin: 0;
     margin-top: 88px;
   }
 
-  .skill-item:first-child {
+  .skill-list li:first-child {
     margin-top: 0;
   }
 }
@@ -379,23 +386,24 @@ img {
     height: 20px;
   }
 
-  .header-sp-men span {
+  .header-sp-menu-relative span {
+    content: "";
     display: block;
     height: 2px;
     width: 100%;
-    border-color: #ddd;
+    background-color: #ddd;
     position: absolute;
   }
 
-  .header-sp-men span:nth-child(1) {
+  .header-sp-menu-relative span:nth-child(1) {
     top: 0;
     left: 0;
   }
-  .header-sp-men span:nth-child(2) {
+  .header-sp-menu-relative span:nth-child(2) {
     top: 9px;
     left: 0;
   }
-  .header-sp-men span:nth-child(3) {
+  .header-sp-menu-relative span:nth-child(3) {
     bottom: 0;
     left: 0;
   }
@@ -410,5 +418,27 @@ img {
 
   .theme-subtitle {
     margin-top: 20px;
+  }
+
+
+  .email-btn {
+    font-size: 20px;
+    padding: 18px 28px;
+  }
+
+  /* sns */
+
+  .sns-inner {
+    padding: 50px 15px;
+    box-sizing: border-box;
+  }
+
+  .sns-list li {
+    display: block;
+  }
+
+  .sns-list li a {
+    width: 100%;
+    padding: 40px 0;
   }
 }
